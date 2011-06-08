@@ -101,7 +101,7 @@ $this->breadcrumbs = array(
 
 <h2>How to use?</h2>
 <ul>
-<li>To benefit from all the features described above, extend your controllers from ParentController instead if Controller or CController</li>
+<li>To benefit from all the features described above, extend your controllers from ParentController instead of Controller or CController</li>
 </ul>
 
 <h2>Permissions</h2>
@@ -120,7 +120,7 @@ $this->breadcrumbs = array(
     <li><?= CHtml::link('php-ids 0.2', 'http://www.yiiframework.com/extension/phpids/'); ?></li>                    
 </ul>
 
-<h2>Feature Improvements</h2>
+<h2>Future Improvements</h2>
 <ul>
     <li>Add a user component(Current consideration is <?= Chtml::link('YiiUser', 'http://code.google.com/p/yii-user'); ?>), waiting for developer to add support for creating roles, setting up permissions and assigning roles for admin users, might contribute it.</li>
     <li>Add <?= Chtml::link('PHPConsole' 'http://www.yiiframework.com/extension/php-console');?> extension</li>

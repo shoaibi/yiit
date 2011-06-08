@@ -57,7 +57,7 @@ Features
 
 How to use?
 ---------------------
-* To benefit from all the features described above, extend your controllers from ParentController instead if Controller or CController
+* To benefit from all the features described above, extend your controllers from ParentController instead of Controller or CController
 
 Permissions
 ---------------------
@@ -71,7 +71,7 @@ Bundled software
 * [yii-1.1.7.r3135](http://www.yiiframework.com/download/)
 * [php-ids 0.2](http://www.yiiframework.com/extension/phpids/)
 
-Feature Improvements
+Future Improvements
 ====================
 * Add a user component(Current consideration is [YiiUser](http://code.google.com/p/yii-user)), waiting for developer to add support for creating roles, setting up permissions and assigning roles for admin users, might contribute it.
 * Add [PHPConsole](http://www.yiiframework.com/extension/php-console) extension
