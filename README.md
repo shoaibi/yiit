@@ -66,13 +66,13 @@ Bundled software
 
 Feature Improvements
 ====================
-* Add a user component(Current consideration is YiiUser|http://code.google.com/p/yii-user), waiting for developer to add support for creating roles, setting up permissions and assigning roles for admin users, might contribute it.
-* Add S3 CDN Extension(Current consideration is es3|http://www.yiiframework.com/extension/es3/)
-* Add Email|http://www.yiiframework.com/extension/email/ extension
+* Add a user component(Current consideration is [YiiUser](http://code.google.com/p/yii-user)), waiting for developer to add support for creating roles, setting up permissions and assigning roles for admin users, might contribute it.
+* Add S3 CDN Extension(Current consideration is [es3](http://www.yiiframework.com/extension/es3/))
+* Add [Email](http://www.yiiframework.com/extension/email/) extension
 * Add a decent Paypal extension
 * Add a decent openid extension
 * Copy current theme as theme_name-minified, minify css and js and use that. Add minifer script in project. (Any suggestion which one to use?)
 
 Feature Requests/Contact/Feedback
 =================================
-*You can contact me at shoaib[AT|NOSPAM]linuxmail[DOT]org
+* You can contact me at shoaib[AT|NOSPAM]linuxmail[DOT]org
