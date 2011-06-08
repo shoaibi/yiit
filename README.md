@@ -4,7 +4,7 @@ Features
 ** Redirects non-www to www domain. Rule is generic so you don't need to customize it.
 ** Supports Pretty URLs
 ** Supports YII_ENVIRONMENT set. Ideally this should be the place where you should change YII_ENVIRONMENT but you can always override it index.php
-* Support for Multiple Environment is enabled, (Thanks to this|http://www.yiiframework.com/wiki/73 and this|http://www.yiiframework.com/wiki/73/#c34).
+* Support for Multiple Environment is enabled, (Thanks to [this](http://www.yiiframework.com/wiki/73) and [this](http://www.yiiframework.com/wiki/73/#c34)).
 ** Config is broken on per environment basis inside protected/config with main.php containing generic settings, later overridden by environment specific config file.
 ** main
 *** Added yiilite path which can be enabled depending on requirements. Some people think this is environment specific, my observation differs.
@@ -25,7 +25,7 @@ Features
 ** mode_production
 *** Debug disabled with traceLevel as 0
 *** Db configuration have overridden parameters and contains logDB definition
-*** PHP-IDS(link|http://www.yiiframework.com/extension/phpids/) is enabled
+*** PHP-IDS([link](http://www.yiiframework.com/extension/phpids/)) is enabled
 *** Logging
 **** FileLogging same as development mode
 **** EmailLog for error and warning levels
@@ -40,12 +40,12 @@ Features
 *** Logging same as mode_development
 *** Configured fixture
 * Meta Tags
-** Added support for meta tags and link tags (Thanks to this)
+** Added support for meta tags and link tags (Thanks to [this](http://www.yiiframework.com/wiki/54/))
 ** Class files located at protected/components, called ExtendedController and ParentController
 ** Extend your controllers from ParentController
 ** SiteController contains examples on how to set meta, controller level, action level and combined
 ** Custom component class also contains some documentation that could be useful
-* Added default deny rule in ParentController (Thanks to this)
+* Added default deny rule in ParentController (Thanks to [this](http://www.yiiframework.com/wiki/169/configuring-controller-access-rules-to-default-deny/))
 * Created a theme out of default view files
 
 How to use?
@@ -61,8 +61,8 @@ Permissions
 
 Bundled software
 ================
-*yii-1.1.7.r3135
-*php-ids 0.2
+* yii-1.1.7.r3135
+* php-ids 0.2
 
 Feature Improvements
 ====================
