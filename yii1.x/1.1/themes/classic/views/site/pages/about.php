@@ -123,7 +123,7 @@ $this->breadcrumbs = array(
 <h2>Future Improvements</h2>
 <ul>
     <li>Add a user component(Current consideration is <?= Chtml::link('YiiUser', 'http://code.google.com/p/yii-user'); ?>), waiting for developer to add support for creating roles, setting up permissions and assigning roles for admin users, might contribute it.</li>
-    <li>Add <?= Chtml::link('PHPConsole' 'http://www.yiiframework.com/extension/php-console');?> extension</li>
+    <li>Add <?= Chtml::link('PHPConsole', 'http://www.yiiframework.com/extension/php-console');?> extension</li>
     <li>Add S3 CDN Extension(Current consideration is <?= Chtml::link('es3', 'http://www.yiiframework.com/extension/es3/'); ?>)</li>
     <li>Add <?= Chtml::link('Email', 'http://www.yiiframework.com/extension/email/');?> extension</li>
     <li>Add a decent Paypal extension</li>
