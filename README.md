@@ -10,7 +10,7 @@ Features
 * .htaccess
 	* Redirects non-www to www domain. Rule is generic so you don't need to customize it.
 	* Supports Pretty URLs
-	* Supports YII_ENVIRONMENT set. Ideally this should be the place where you should change YII_ENVIRONMENT but you can always override it index.php
+	* Supports YII_ENVIRONMENT variable. Ideally this should be the place where you should change YII_ENVIRONMENT but you can always override it in index.php
 * Support for Multiple Environment is enabled, (Thanks to [this](http://www.yiiframework.com/wiki/73) and [this](http://www.yiiframework.com/wiki/73/#c34)).
 	* Config is broken on per environment basis inside protected/config with main.php containing generic settings, later overridden by environment specific config file.
 	* main

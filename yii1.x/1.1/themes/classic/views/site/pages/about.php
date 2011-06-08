@@ -12,7 +12,7 @@ $this->breadcrumbs = array(
     <ul>
         <li>Redirects non-www to www domain. Rule is generic so you don't need to customize it.</li>
         <li>Supports Pretty URLs</li>
-        <li>Supports <tt>YII_ENVIRONMENT</tt> set. Ideally this should be the place where you should change <tt>YII_ENVIRONMENT</tt> but you can always override it <tt>index.php</tt></li>
+        <li>Supports <tt>YII_ENVIRONMENT</tt> set. Ideally this should be the place where you should change <tt>YII_ENVIRONMENT</tt> but you can always override it in <tt>index.php</tt></li>
     </ul>
 </li>
 
