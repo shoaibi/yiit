@@ -1,4 +1,5 @@
-=Features=
+Features
+=========
 * .htaccess
 ** Redirects non-www to www domain. Rule is generic so you don't need to customize it.
 ** Supports Pretty URLs
@@ -47,20 +48,24 @@
 * Added default deny rule in ParentController (Thanks to this)
 * Created a theme out of default view files
 
-=How to use?=
+How to use?
+============
 * To benefit from all the features described above, extend your controllers from ParentController instead if Controller or CController
 
-=Permissions= 
+Permissions
+===========
 * Following directories should be writable by webserver
 ** assets
 ** protected/runtime
 ** protected/components/ids/IDS/tmp
 
-=Bundled software=
+Bundled software
+================
 *yii-1.1.7.r3135
 *php-ids 0.2
 
-=Feature Improvements=
+Feature Improvements
+====================
 * Add a user component(Current consideration is YiiUser|http://code.google.com/p/yii-user), waiting for developer to add support for creating roles, setting up permissions and assigning roles for admin users, might contribute it.
 * Add S3 CDN Extension(Current consideration is es3|http://www.yiiframework.com/extension/es3/)
 * Add Email|http://www.yiiframework.com/extension/email/ extension
@@ -68,5 +73,6 @@
 * Add a decent openid extension
 * Copy current theme as theme_name-minified, minify css and js and use that. Add minifer script in project. (Any suggestion which one to use?)
 
-=Feature Requests/Contact/Feedback=
+Feature Requests/Contact/Feedback
+=================================
 *You can contact me at shoaib[AT|NOSPAM]linuxmail[DOT]org
