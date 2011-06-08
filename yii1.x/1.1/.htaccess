@@ -1,0 +1,27 @@
+### Environment setup.
+# This could be DEVELOPMENT, TEST, STAGE and PRODUCTION
+SetEnv YII_ENVIRONMENT DEVELOPMENT
+
+
+
+RewriteEngine on
+RewriteBase /
+
+### Redirect non-www domain to www
+#non empty HTTP_HOST in the request
+RewriteCond %{HTTP_HOST} !^$ [NC]
+#does not start with 'www'
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+#saves the value of HTTP_HOST in %1
+RewriteCond %{HTTP_HOST} ^(.*)$ [NC]
+#redirects using the saved URI (in RewriteRule) and saved hostname (in the last RewriteCond)
+RewriteRule ^(.*)$ "http://www.%1/$1" [L,R=301]
+
+
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php
