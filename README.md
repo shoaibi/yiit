@@ -75,6 +75,9 @@ Future Improvements
 ====================
 * Add a user component(Current consideration is [YiiUser](http://code.google.com/p/yii-user)), waiting for developer to add support for creating roles, setting up permissions and assigning roles for admin users, might contribute it.
 * Add [PHPConsole](http://www.yiiframework.com/extension/php-console) extension
+* Add [Settings](http://www.yiiframework.com/extension/settings/) extension
+* Add [Google Analytics](http://www.yiiframework.com/extension/google-analytics/) extension
+* Add/write/port some nice Paypal extension.
 * Add S3 CDN Extension(Current consideration is [es3](http://www.yiiframework.com/extension/es3/))
 * Add [Email](http://www.yiiframework.com/extension/email/) extension
 * Add a decent Paypal extension

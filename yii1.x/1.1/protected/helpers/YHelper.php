@@ -13,7 +13,7 @@ class YHelper
                     (sha1
                     (uniqid('', true)).dechex(time()).dechex(mt_rand(1, 65535)))
                     )
-                    , 0, $length);        
+                    , 0, $length);     
     }
     
 }
